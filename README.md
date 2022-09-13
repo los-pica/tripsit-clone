@@ -1,3 +1,3 @@
-# Project First
+# CombiDroga
 
-This is project first.
+This is a project for prevent health issues when combining drugs ;)
