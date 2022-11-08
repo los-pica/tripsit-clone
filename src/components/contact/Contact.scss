@@ -1,0 +1,16 @@
+ul {
+  list-style-type: none;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  a {
+    color: #5aae56;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+}
