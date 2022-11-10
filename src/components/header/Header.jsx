@@ -1,12 +1,17 @@
 import React from "react";
+import Logo from "./Logo";
+import Links from "./Links";
 import "./header.scss";
 
-const Header = ({ count, increment, decrement }) => {
+const Header = () => {
   return (
     <header>
-      <p className="count">{count}</p>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
+      <div className="header-logo">
+        <Logo />
+      </div>
+      <div className="header-links">
+        <Links />
+      </div>
     </header>
   );
 };
