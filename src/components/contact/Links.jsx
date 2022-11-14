@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const links = [
   {
     text: "I am banned (or am getting a message saying I’m banned) and would like to appeal (or get information on why I’m banned).",
@@ -37,7 +37,7 @@ export default function Links() {
       <ul>
         {links.map((link) => (
           <li>
-            <a href={link.href}>{link.text}</a>
+            <Link to={link.href}>{link.text}</Link>
           </li>
         ))}
       </ul>
