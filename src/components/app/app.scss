@@ -1,15 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import "../../utils/variables";
 
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: $main-font-family;
+  font-weight: $main-font-weight;
+  font-size: $regular-font-size;
 }
+
 .app {
   width: 100%;
   height: 95%;
-}
-.container {
-  padding: 0 15%;
 }
