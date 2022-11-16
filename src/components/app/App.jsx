@@ -1,10 +1,9 @@
-//  import { useState } from "react";
 import Header from "../header/Header";
-//import Content from "../content/Content";
-//import Footer from "../footer/Footer";
+import Content from "../content/Content";
 import Contact from "../contact/Contact";
-import "./app.scss";
+import Combinations from "../combinations/Combinations";
 import { Route, Routes } from "react-router-dom";
+import "./app.scss";
 
 const App = () => {
   return (
@@ -13,10 +12,12 @@ const App = () => {
       <Routes>
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      {/*<div className="app">
-        <Content />
-        <Footer />
-  </div> */}
+      {
+        <div className="app">
+          <Content />
+          <Combinations />
+        </div>
+      }
     </>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import Links from "./Links";
-import "./Contact.scss";
+import "./contact.scss";
 export default function Contact() {
   return (
     <div className="contact-container">
