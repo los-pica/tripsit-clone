@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./substance.scss";
+import React from "react";
+import "./substanceButton.scss";
 
 function SubstanceButton({ substance, onClick }) {
   return (
