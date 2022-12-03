@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 const links = [
   {
     text: "I am banned (or am getting a message saying I’m banned) and would like to appeal (or get information on why I’m banned).",
