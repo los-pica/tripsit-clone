@@ -1,0 +1,34 @@
+@import "../../utils/variables";
+
+.about {
+    padding: $container-padding;
+    justify-content: space-between;
+
+    .about { 
+        &-container { 
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .about {
+        &-image {
+           padding-right: 7%;
+        }
+    }
+
+    .about {
+        &-tittle {
+            font-size: 25px;
+            width: 615px;
+            
+            h1 { 
+                font-size: 50px;
+            }
+        }
+    }
+
+    .description { 
+            font-size: $large-font-size;
+        }
+    }
