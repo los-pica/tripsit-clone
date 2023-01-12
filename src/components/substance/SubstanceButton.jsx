@@ -1,5 +1,5 @@
 import React from "react";
-import "./substanceButton.scss";
+import "./substance-button.scss";
 
 function SubstanceButton({ substance, onClick }) {
   return (

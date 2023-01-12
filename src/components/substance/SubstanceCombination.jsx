@@ -27,7 +27,6 @@ const SubstanceCombination = () => {
     );
     actualSubstance.active = !actualSubstance.active;
     setSubstance(substanceCopy);
-    console.log(id, substance);
   };
   return (
     <div className="substance-container">
