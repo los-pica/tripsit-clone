@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const links = [
   {
     name: "About",
@@ -27,7 +27,7 @@ const Links = () => {
   return (
     <div>
       {links.map((link) => {
-        return <a href={link.href}>{link.name}</a>;
+        return <Link to={link.href}>{link.name}</Link>;
       })}
     </div>
   );
