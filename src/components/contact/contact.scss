@@ -1,32 +1,20 @@
-@import "../../utils/variables";
-
 .contact-container {
-  width: 90%;
-  padding: $container-padding;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-size: $regular-font-size;
-  font-weight: $main-font-weight;
-  h1 {
-    font-weight: 400;
-  }
+  height: 100%;
+  padding: 15px;
 }
 ul {
-  height: 45vh;
+  list-style-type: none;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  list-style: none;
-  margin: 0;
-  padding: 0;
   a {
     color: #5aae56;
-    $main-font-weight: 300;
-    //font-size: 20px;
-    line-height: 5px;
-    //display: flex;
-    //align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
     text-decoration: none;
   }
 }

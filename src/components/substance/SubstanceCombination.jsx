@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SubstanceButton from "./SubstanceButton";
-import "./substanceCombination.scss";
+import "./substance-combination.scss";
 
 const SubstanceCombination = () => {
   const [substance, setSubstance] = useState([
