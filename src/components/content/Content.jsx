@@ -8,14 +8,16 @@ import "./content.scss";
 
 const Content = () => {
   return (
-    <div className="content">
-      <Routes>
-        <Route path="/" element={<Combinations />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/donate" element={<Donate />} />
-        <Route path="/combinations" element={<Combinations />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+    <div className="container">
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Combinations />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/combinations" element={<Combinations />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
     </div>
   );
 };

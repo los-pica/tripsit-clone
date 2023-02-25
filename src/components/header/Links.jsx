@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./header.scss";
+
 const links = [
   {
     name: "About",
@@ -25,11 +27,11 @@ const links = [
 
 const Links = () => {
   return (
-    <div>
+    <>
       {links.map((link) => {
         return <Link to={link.href}>{link.name}</Link>;
       })}
-    </div>
+    </>
   );
 };
 

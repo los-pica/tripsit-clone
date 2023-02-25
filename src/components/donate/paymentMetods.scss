@@ -4,24 +4,29 @@
   width: 100%;
   align-items: center;
   display: flex;
-  //flex-direction: initial;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .payment {
+  width: 170px;
+  height: 45px;
   margin-right: 20px;
-  display: flex;
-  align-items: center;
-  width: 180px;
-  margin-top: 60px;
-  box-sizing: border-box;
-  height: 40px;
-  border: solid #000000 1px;
+  margin-top: 7%;
   padding: 1px 40px 0px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1.4px solid #000000;
   img {
     width: 100px;
   }
-  
+}
+
+@media (max-width: 820px) {
+  .payment-methods {
+    flex-direction: column;
+    justify-content: center;
+  }
 }

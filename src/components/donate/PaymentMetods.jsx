@@ -6,16 +6,19 @@ import "./paymentMetods.scss";
 
 const paymentOptions = [
   {
+    name:"patreon",
     id: "patreon",
     img: Patreon,
     href: "/*insert link*/",
   },
   {
+    name:"paypal",
     id: "paypal",
     img: Paypal,
     href: "/*insert link*/",
   },
   {
+    name:"bitcoin",
     id: "bitcoin",
     img: Bitcoin,
     href: "/*insert link*/",
