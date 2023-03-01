@@ -10,7 +10,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+
     img {
       width: 17%;
     }
@@ -18,16 +18,17 @@ header {
     .open-menu {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: space-between;
       align-items: flex-start;
       position: absolute;
       background-color: $secondary-color;
-      top: 65px;
+      top: 100px;
       right: 0px;
       width: 100vw;
-      height: 40vh;
-      padding-bottom: 15px;
+      height: 33vh;
       padding-left: 8%;
+      padding-bottom: 4%;
+      padding-top: 4%;
       transform: translateY(-120px);
       animation: display-menu 200ms ease-in-out forwards;
     }
@@ -49,12 +50,10 @@ header {
         }
       }
     }
-
     &-toggle {
-      width: 10px;
-      height: 10px;
-      background-color: #1c1a1d;
-      display: none;
+      button {
+        display: none;
+      }
     }
   }
 }
@@ -66,9 +65,43 @@ header {
         display: none;
       }
 
-      &-toggle {
-        display: flex;
+      img {
+        width: 40%;
       }
+
+      a {
+        font-size: 25px;
+      }
+
+      
+    &-toggle {
+      button {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 5rem;
+        border: 0;
+        background: transparent;
+        gap: 0.5rem;
+
+        > div {
+          background: white;
+          height: 5px;
+          width: 100%;
+          border-radius: 9px;
+          transition: all 0.5s;
+          transform-origin: right;
+
+          &:last-child {
+            // transform: scaleX(0.5);
+            transform-origin: right;
+          }
+        }
+      }
+    }
     }
   }
 }

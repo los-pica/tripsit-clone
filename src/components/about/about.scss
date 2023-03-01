@@ -1,7 +1,6 @@
 @import "../../utils/variables";
 
 .about {
-  padding: $container-padding;
   justify-content: space-between;
 
   &-top {
@@ -13,11 +12,12 @@
     }
 
     &-title {
-      font-size: 25px;
-      width: 615px;
+      font-size: 18px;
+      // width: 615px;
+      padding-right: 50%;
 
       h1 {
-        font-size: 50px;
+        font-weight: 400;
       }
     }
   }
@@ -25,5 +25,9 @@
     &-description {
       font-size: $large-font-size;
     }
+  }
+  img {
+    width: 350%;
+    margin-left: -750%;
   }
 }
